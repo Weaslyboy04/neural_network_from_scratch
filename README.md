@@ -35,10 +35,3 @@ $$\hat{m}_t = \frac{m_t}{1 - \beta_1^t}, \quad \hat{v}_t = \frac{v_t}{1 - \beta_
 Parameter update:
 $$\theta_{t} = \theta_{t-1} - \frac{\alpha}{\sqrt{\hat{v}_t} + \epsilon} \hat{m}_t$$
 
-## Installation & Usage
-
-1. **Clone the repository and install dependencies:**
-   ```bash
-   git clone [https://github.com/yourusername/numpy-dl-from-scratch.git](https://github.com/yourusername/numpy-dl-from-scratch.git)
-   cd numpy-dl-from-scratch
-   pip install -r requirements.txt
